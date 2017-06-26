@@ -1,0 +1,85 @@
+Exporter version: 5.2.0, Blender version: 2.78 (sub 0)
+========= Conversion from Blender to Babylon.js =========
+	Scene settings used:
+		selected layers only:  false
+		flat shading entire scene:  false
+		inline textures:  false
+		texture directory:  C:\Users\Sven\Documents\SvenFrankson\sonar\datas\
+	Python World class constructor completed
+	WARNING: No active camera has been assigned, or is not in a currently selected Blender layer
+	processing begun of mesh:  StreetLight.003
+		WARNING: No materials have been assigned: 
+		num positions      :  194
+		num normals        :  194
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1152
+	processing begun of mesh:  StreetLight.002
+		WARNING: No materials have been assigned: 
+		num positions      :  194
+		num normals        :  194
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1152
+	processing begun of mesh:  StreetLight.001
+		WARNING: No materials have been assigned: 
+		num positions      :  194
+		num normals        :  194
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1152
+	processing begun of mesh:  StreetLight.000
+		WARNING: No materials have been assigned: 
+		num positions      :  194
+		num normals        :  194
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1152
+	processing begun of mesh:  Ground
+		WARNING: No materials have been assigned: 
+		num positions      :  12
+		num normals        :  12
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  42
+	processing begun of mesh:  StreetLight.009
+		WARNING: No materials have been assigned: 
+		num positions      :  194
+		num normals        :  194
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1152
+	processing begun of mesh:  House.001
+		WARNING: No materials have been assigned: 
+		num positions      :  120
+		num normals        :  120
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  672
+	processing begun of mesh:  StreetLight.004
+		WARNING: No materials have been assigned: 
+		num positions      :  194
+		num normals        :  194
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1152
+	processing begun of mesh:  House
+		WARNING: No materials have been assigned: 
+		num positions      :  120
+		num normals        :  120
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  672
+========= Writing of scene file started =========
+========= Writing of scene file completed =========
+========= end of processing =========
+elapsed time:  0 min, 0.3047 secs
