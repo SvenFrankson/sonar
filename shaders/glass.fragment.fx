@@ -36,5 +36,12 @@ void main(void) {
     rangeTerm3 = 1. / ((delta3 * delta3) / 8. + 1.);
   }
 
-  gl_FragColor = vec4(rangeTerm1 + rangeTerm2 + rangeTerm3, rangeTerm1 + rangeTerm2 + rangeTerm3, rangeTerm1 + rangeTerm2 + rangeTerm3, 1);
+  float vSqrSourceDist4 = dot(source4 - vPositionW, source4 - vPositionW);
+  float delta4 = sqrSourceDist4 - vSqrSourceDist4;
+  float rangeTerm4 = 0.;
+  if (delta4 > 0.) {
+    rangeTerm4 = 1. / ((delta4 * delta4) / 8. + 1.);
+  }
+
+  gl_FragColor = vec4(rangeTerm1 + rangeTerm2 + rangeTerm3 + rangeTerm4, rangeTerm1 + rangeTerm2 + rangeTerm3 + rangeTerm4, rangeTerm1 + rangeTerm2 + rangeTerm3 + rangeTerm4, 1);
 }

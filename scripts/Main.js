@@ -21,29 +21,37 @@ var Main = (function () {
         var k1 = 0;
         var k2 = 5;
         var k3 = 10;
+        var k4 = 15;
         Main.Scene.registerBeforeRender(function () {
             if (glassMaterial) {
-                glassMaterial.setVector3("source1", BABYLON.Vector3.Zero());
-                glassMaterial.setVector3("source2", BABYLON.Vector3.Zero());
-                glassMaterial.setVector3("source3", BABYLON.Vector3.Zero());
+                glassMaterial.setVector3("source1", Main.Camera.globalPosition);
+                glassMaterial.setVector3("source2", Main.Camera.globalPosition);
+                glassMaterial.setVector3("source3", Main.Camera.globalPosition);
+                glassMaterial.setVector3("source4", Main.Camera.globalPosition);
                 var srcDist1 = k1;
                 var srcDist2 = k2;
                 var srcDist3 = k3;
+                var srcDist4 = k4;
                 k1 += 0.05;
-                if (k1 > 15) {
+                if (k1 > 20) {
                     k1 = 0;
                 }
                 k2 += 0.05;
-                if (k2 > 15) {
+                if (k2 > 20) {
                     k2 = 0;
                 }
                 k3 += 0.05;
-                if (k3 > 15) {
+                if (k3 > 20) {
                     k3 = 0;
+                }
+                k4 += 0.05;
+                if (k4 > 20) {
+                    k4 = 0;
                 }
                 glassMaterial.setFloat("sqrSourceDist1", srcDist1 * srcDist1);
                 glassMaterial.setFloat("sqrSourceDist2", srcDist2 * srcDist2);
                 glassMaterial.setFloat("sqrSourceDist3", srcDist3 * srcDist3);
+                glassMaterial.setFloat("sqrSourceDist4", srcDist4 * srcDist4);
             }
         });
         glassMaterial.backFaceCulling = true;
